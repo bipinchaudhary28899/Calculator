@@ -10,9 +10,16 @@
     text-align: center;
     color: white;
 }
+#display{
+    position: absolute;
+    width:100%;
+}
 #display-container{
+    position: relative;
     height: 70px;
     border: solid 2px;
+    width: 350px;
+    overflow: hidden;
     margin:0 20px;
     background-color: beige;
     color: black;
@@ -21,6 +28,7 @@
     height: 500px;
     margin-top: 20px;
 }
+
 .btn1{
     display: inline-block;
     width: 90px;
